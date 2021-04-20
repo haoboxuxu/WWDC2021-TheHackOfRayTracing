@@ -1,0 +1,6 @@
+# Created by Xu Haobo 徐浩博
+
+newmtl cam
+Kd 1 1 1
+map_Kd cam.png
+

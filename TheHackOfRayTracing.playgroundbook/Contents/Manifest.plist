@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ImageReference</key>
+	<string>ICON_TheHackOfRayTracing.png</string>
+	<key>Chapters</key>
+	<array>
+		<string>TheHackOfRayTracing.playgroundchapter</string>
+	</array>
+	<key>ContentIdentifier</key>
+	<string>com.haoboxuxuTheHackOfRayTracing</string>
+	<key>ContentVersion</key>
+	<string>1.0</string>
+	<key>DeploymentTarget</key>
+	<string>ios13.4</string>
+	<key>DevelopmentRegion</key>
+	<string>en</string>
+	<key>Name</key>
+	<string>TheHackOfRayTracing</string>
+	<key>SupportsDarkMode</key>
+	<true/>
+	<key>SwiftVersion</key>
+	<string>5.1</string>
+	<key>UserAutoImportedAuxiliaryModules</key>
+	<array>
+		<string>BookAPI</string>
+	</array>
+	<key>UserModuleMode</key>
+	<string>Full</string>
+	<key>Version</key>
+	<string>7.0</string>
+</dict>
+</plist>
