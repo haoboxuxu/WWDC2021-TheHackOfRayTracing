@@ -23,6 +23,12 @@ import RT3D
 _samplesPerPixel = /*#-editable-code*/8/*#-end-editable-code*/
 _maxDepth = /*#-editable-code*/8/*#-end-editable-code*/
 //#-hidden-code
+if _samplesPerPixel > 15 {
+    _samplesPerPixel = 15
+}
+if _maxDepth > 15 {
+    _maxDepth = 15
+}
 let rtvc = RTViewController()
 rtvc.setViewSize(UIScreen.main.bounds)
 _imageWidth = Float(UIScreen.main.bounds.width/2)
